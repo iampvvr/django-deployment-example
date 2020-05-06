@@ -1,0 +1,13 @@
+{% extends 'one.html' %}
+{% block body_block %}
+  {% if registered %}
+    <h1>registration successfull</h1>
+  {% else %}
+    <form  enctype="multipart/form-data" method="post">
+      {{ user.as_p }}
+      {{ profile.as_p }}
+      {% csrf_token %}
+      <input type="submit" class='btn btn-primary' value="submit">
+    </form>
+  {% endif %}
+{% endblock %}
