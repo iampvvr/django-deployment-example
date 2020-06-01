@@ -28,7 +28,7 @@ SECRET_KEY = 'y*^a=kmq2+rc#^survr+o)y87&wt*mra03in1^cxgoz%nuctz5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['iampvvr.pythonanywhere.com']
+ALLOWED_HOSTS = ['iampvvr.pythonanywhere.com','127.0.0.1']
 
 
 # Application definition
